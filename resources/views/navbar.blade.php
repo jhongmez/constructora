@@ -16,17 +16,17 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		    <ul class="nav navbar-nav navbar-right moveOptions">
-		        <li>
+		        <li class="listNav">
 		        	<a href="#">
-		        		<i class="fas fa-users"></i>&nbsp;Quienes somos
+		        		<i class="far fa-question-circle"></i>&nbsp;Quienes somos
 		        	</a>
 		        </li>
-		        <li>
+		        <li class="listNav">
 		        	<a href="#">
 		        		<i class="far fa-building"></i>&nbsp;Nuestros proyectos
 		        	</a>
 		        </li>
-		        <li>
+		        <li class="listNav">
 		        	<a href="#">
 		        		<i class="fas fa-phone-volume"></i>&nbsp;Contáctanos
 		        	</a>

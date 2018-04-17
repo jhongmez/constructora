@@ -6,6 +6,8 @@
 	<title>Juventud Constructora | Bienvenido</title>
 	<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/fontawesome-all.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/main.css') }}">
 </head>
 <body>
@@ -13,23 +15,35 @@
   <!--core first + styles last-->
 </head>
 <body>
-	<section id="background">
-		@include('navbar')
-		<div class="container">
-			<div class="containBackground">
-				<p class="titleBackground">Trabajamos para que</p>
-				<p class="subtitleBackground">tus sueños se</p>
-				<p class="thirdtitleBackground">cumplan</p>
-				<div class="separator"></div>
-				<a href="tel://" class="btn btn-call btn-lg">
-					<i class="fas fa-phone-volume"></i>&nbsp;¡Comunicate con nosotros! 317-576-0480
-				</a>
-			</div>
-		</div>
-	</section>
+	@include('navbar')
+	<div class="owl-carousel owl-theme">
+	    <div class="item backgroundFirst">
+	    	<div class="container-fluid">
+	    		<div class="row">
+	    			<div class="col-sm-5 col-md-5">
+	    				<p class="titlefirstSlider">
+	    					Trabajamos para que
+	    					tus sueños se <span>CUMPLAN</span>
+	    				</p>
+	    				<div class="separator"></div>
+	    				<a href="" class="btn btn-call">
+	    					Llámanos para mas información 317 5760480 <i class="fas fa-mobile-alt "></i>
+	    				</a>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="item backgroundSecond">
+	    	
+	    </div>
+	    <div class="item backgroundThird">
+	    	
+	    </div>
+	</div>
 	<script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
 	<script src="{{ asset('js/bootstrap.min.js') }}"></script>
 	<script src="{{ asset('js/fontawesome-all.min.js') }}"></script>
+	<script src="{{ asset('js/owl.carousel.min.js') }}"></script>
 	<script src="{{ asset('js/custom.js') }}"></script>
 </body>
 </html>
